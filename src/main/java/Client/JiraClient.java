@@ -30,7 +30,7 @@ public JiraClient() throws IOException{
 	public void CreateJiraIssue(String jsonBody) {
 		try {
 		    CloseableHttpClient client = HttpClientBuilder.create().build();
-		    HttpPost httpPost = new HttpPost("https://YOUR_URL.atlassian.net/rest/api/2/issue");
+		    HttpPost httpPost = new HttpPost(configReader.getPropertyValue("JIRA_URI"));
 	        httpPost.setHeader(HttpHeaders.AUTHORIZATION, "Basic "+auth);
 	        httpPost.setHeader(HttpHeaders.CONTENT_TYPE, "application/json");
 	        httpPost.setHeader(HttpHeaders.ACCEPT, "application/json");

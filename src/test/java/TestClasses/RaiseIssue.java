@@ -1,3 +1,4 @@
+package TestClasses;
 import java.io.IOException;
 
 import Client.JiraClient;
