@@ -1,0 +1,8 @@
+{"fields":
+ {
+ "project":{"key":"ThoughtCoders"},
+ "summary":"ThoughtCoders Jira Rest API Test",
+ "description":"{code}DB.EXECUTION.ERROR{code} Got 500 as Http Status Code",
+ "issuetype":{"name":"Bug"}
+ }
+}
