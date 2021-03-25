@@ -7,7 +7,7 @@
   <test thread-count="3" parallel="classes" name="Test">
     <classes>
       <class name="TestClasses.TestngTest"/>
-       <class name="TestClasses.TestNg2"/>
+      <class name="TestClasses.TestNg2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

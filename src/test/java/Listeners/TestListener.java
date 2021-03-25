@@ -12,7 +12,7 @@ public class TestListener implements ITestListener  {
 
 	public void onTestFailure(ITestResult result) {
 	   String testSummary = "Test "+ result.getTestClass().getName()+"failed";
-	   String testDescription= "Test Method "+ result.getTestClass().getName();
+	   String testDescription= "Test Method "+ result.getInstanceName();
 	  JSON json = new JSON(" ");
 	   String jsonBody = json.convertIntoJSON(testSummary,testDescription );
 	   try {

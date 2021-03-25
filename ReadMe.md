@@ -1,15 +1,20 @@
-#JIRA INTEGRATION WITH TESTNG
+# JIRA INTEGRATION WITH TESTNG#
+### This project is created to automate testing and defect reporting on JIRA
 
-####This project is created to automate testing and defect reporting on JIRA
 
-#####Prerequisite
+#### Prerequisite
+
+
 _JIRA PROJECT should be created_
 
 _Testing should be Automated_
 
 _Jira Credentials should be available_
 
+
 ##### How to Run #####
+
+
 Step 1: Update Jira ***USERNAME*** and ***AUTH*** in Config.properties file
 
 Step 2: Update ***Jira URI** in in Config.properties file
@@ -27,21 +32,16 @@ After test execution Jira issues will be raised. Check console log for JIRA IDs
 
 
 |Creator|Email|Mobile|
-
 |-----------|-----------|-------------|
-
 |Ajeet Yadawa|ajit091@gmail.com|+918130550735
 
 
-Additional Links:
+**Additional Links:**
 
+[Automation Blogs Link](https://www.thoughtcoders.com/blog/)
 
-[Link] (https://www.thoughtcoders.com/blog/ "Automation Blog Link")
+[Linked In ](https://www.linkedin.com/in/ajeetyadawa/)
 
-
-[Link](https://www.linkedin.com/in/ajeetyadawa/  "Linked In")
-
-
-[Link] (https://www.stackoverflow.com/users/10385429/ajeet-yadawa "StackOver Flow")
+[Stackover Flow](https://www.stackoverflow.com/users/10385429/ajeet-yadawa/)
 
 

@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 public class TestNg2 {
 	@Test
 	public void positiveTest2() {
-	Assert.assertEquals("Ajeet", "Ajit");
+	Assert.assertEquals("Luxoft", "Luxoft");
 		
 	}
 	@Test
 	public void negativeTest2() {
-	Assert.assertEquals("Ajeet", "Ajeet");
+	Assert.assertEquals("LUXFT", "Luxoft");
 		
 	}
 }
